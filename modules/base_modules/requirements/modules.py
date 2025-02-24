@@ -14,5 +14,4 @@ def install_requirements():
     except Exception as e:
         print(f"Erreur lors de l'installation des dépendances : {e}")
 
-if __name__ == "__main__":
 install_requirements()
